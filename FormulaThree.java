@@ -24,7 +24,7 @@ public abstract class FormulaThree {
 
 	public static void compare(double a) {
 		double ret = 0;
-		if (a > -3 & a < 3) {
+		if (a > -3 & a <= 3) {
 			System.out.println("compare returned: Out of scope");
 		} else {
 
