@@ -30,8 +30,7 @@ public abstract class FormulaThree {
 
 			if (a <= -3) {
 				ret = fXFirst(a);
-			}
-			if (a > 3) {
+			}else {
 				ret = fXSecond(a);
 			}
 			System.out.println("compare returned: " + ret);
